@@ -1,0 +1,23 @@
+body {
+  padding-top: 56px;
+  background-image: url(https://i.pinimg.com/originals/6a/42/a1/6a42a1277b302ae10959b349a85c3603.jpg);
+}
+
+.headerContent{
+    background-color: #30303099 !important;
+    color: white;
+}
+
+.contentBackground{
+    background-color: #fffc;
+}
+
+.slider{
+    margin-top: 10px;
+}
+
+@media screen and (max-width : 767px){
+    .galeryRow{
+        flex-direction: column-reverse;
+    }
+}
