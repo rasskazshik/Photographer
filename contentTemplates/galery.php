@@ -1,7 +1,13 @@
 <!-- Page Content -->
   <div class="container contentBackground">
+    <div class="row">
+        <div class="col text-center">
+            <h2>Категория: свадебное фото</h2>
+            <hr>
+        </div>
+    </div>
     <div class="row galeryRow">
-      <div class="col-md-8 mb-5 slider">
+      <div class="col-md-8 slider">
         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -32,10 +38,10 @@
         </div>
       </div>
         
-      <div class="col-md-4 mb-5">
+      <div class="col-md-4 albumList">
         <h2>Список альбомов</h2>
         <hr>
-        <ol>
+        <ul>
             <li>qwe qwqwe</li>
             <li>qwe qwqwe</li>
             <li>qwe qwqwe</li>
@@ -43,7 +49,35 @@
             <li>qwe qwqwe</li>
             <li>qwe qwqwe</li>
             <li>qwe qwqwe</li>
-        </ol>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+            <li>qwe qwqwe</li>
+        </ul>
       </div>        
     </div>      
   </div>

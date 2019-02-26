@@ -14,10 +14,54 @@ body {
 
 .slider{
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width : 767px){
     .galeryRow{
         flex-direction: column-reverse;
     }
+}
+
+.galeryRow, .contactsRow, .calcRow{
+    align-items: center;
+}
+
+.albumList ul{
+    max-height: 410px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+@media screen and (max-width : 767px){
+    .albumList ul{
+    max-height: 210px;
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 991px){
+    .albumList ul{
+    max-height: 180px;
+    }
+}
+@media screen and (min-width : 992px) and (max-width : 1199px){
+    .albumList ul{
+    max-height: 320px;
+    }
+}
+.albumList li{
+    list-style: none;
+}
+
+.contactsRow iframe{
+    width: 100%;
+    min-height: 400px;
+    min-width: 400px;
+}
+
+.calcRow p{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+#map{
+    min-height: 400px;
 }
