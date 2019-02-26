@@ -1,5 +1,6 @@
 body {
   padding-top: 56px;
+  padding-bottom: 56px;
   background-image: url(https://i.pinimg.com/originals/6a/42/a1/6a42a1277b302ae10959b349a85c3603.jpg);
 }
 
@@ -64,4 +65,12 @@ body {
 
 #map{
     min-height: 400px;
+}
+
+.authRow{
+    height: 70vh;
+}
+
+.authRow form {
+    width: 300px;
 }

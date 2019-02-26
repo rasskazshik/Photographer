@@ -86,7 +86,7 @@
             <p class="card-text">Винтаж, маскарад, фэнтезийный образ... Попробуйте вжиться в экзотическую роль!</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Смотрим!</a>
+            <a href="galery.php?category=studia" class="btn btn-primary">Смотрим!</a>
           </div>
         </div>
       </div>

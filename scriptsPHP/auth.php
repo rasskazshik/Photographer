@@ -1,0 +1,11 @@
+<?php
+if($_POST["password"]=="photome")
+{
+    session_start();
+    $_SESSION["isAuth"]=true;
+    exit("true");
+}
+else
+{
+    exit("false");
+}
