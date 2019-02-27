@@ -4,6 +4,10 @@ body {
   background-image: url(https://i.pinimg.com/originals/6a/42/a1/6a42a1277b302ae10959b349a85c3603.jpg);
 }
 
+[type="button"]{
+    cursor: pointer;
+}
+
 .headerContent{
     background-color: #30303099 !important;
     color: white;
@@ -73,4 +77,70 @@ body {
 
 .authRow form {
     width: 300px;
+}
+
+.albumsRow{
+    padding-bottom: 20px;
+}
+
+.albumsRow li a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.albumsRow li a:hover{
+    color:  darkgray !important;
+}
+
+.albumRow{
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.albumRow > div{
+    max-width: 500px;
+    min-width: 300px;
+    background-color: #0003;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+.albumRow img{
+    width: 100%;
+}
+
+.loader{
+    background-color: rgba(0,0,0,.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.loader div{
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.6);
+}
+
+.priceContainer{
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.albumsContainer{
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.no-marker{
+    list-style: none;
 }

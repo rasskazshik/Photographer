@@ -3,7 +3,7 @@ $(".chechPassword").on("submit",function(event){
     $.post("scriptsPHP/auth.php",{password:$('[type="password"]').val()},function(responce){
         if(responce==="true")
         {
-            location.href = "adminAlbums.php";
+            location.href = "adminAlbums.php?categoryId=1";
         }
         else
         {

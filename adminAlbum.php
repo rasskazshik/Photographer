@@ -20,16 +20,18 @@
   
   <script defer src="vendor/jquery/jquery.min.js"></script>
   <script defer src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script defer src="scriptsJS/adminAlbums.js" type="text/javascript"></script>
+  <script defer src="scriptsJS/adminAlbum.js" type="text/javascript"></script>
 </head>
     <body>
 <?php 
 //контент навигации
 require_once 'contentTemplates/navigationAdmin.html';
 //контент страницы
-require_once 'contentTemplates/adminAlbums.php';
+require_once 'contentTemplates/adminAlbum.php';
 //контент футера
 require_once 'contentTemplates/footer.html';
+//лоадер
+require_once 'contentTemplates/loaderModal.html';
 ?>
     </body>
 </html>
