@@ -9,22 +9,14 @@
         <p>Если для Вас важно получить прекрасные и уникальные фотосеты - мы поможем Вам! Если для Вас важно работать в уютной и креативной студии - мы поможем Вам! Если для Вас важно работать с опытным и инициативным профессионалом - мы поможем Вам!</p>
         <a class="btn btn-primary btn-lg" href="./calc.php">Рассчитать примерную стоимость работы</a>
       </div>
-      <div class="col-md-4 mb-5">
-        <h2>Свяжитесь с нами</h2>
-        <hr>
-        <address>
-          <strong>Адрес</strong>
-          <br>Город Курск
-          <br>улица Заливная, дом 39
-          <br>
-        </address>
-        <address>
-          <abbr title="Phone">Телефон:</abbr>
-          <a href="tel:89191792677">+7-(919)-179-26-77</a>
-          <br>
-          <abbr title="Email">Электронная почта:</abbr>
-          <a href="mailto:#">inessaverigina@yandex.ru</a>
-        </address>
+      <div class="col-md-4 align-self-center mb-5">
+          <form class="offerForm">
+              <h2 class="text-center">Оставить заявку</h2>
+              <input class="w-100 name" type="text" placeholder="Как к Вам обращаться" required>
+              <input class="w-100 contacts" type="text" placeholder="Ваш телефон или e-mail" required>
+              <textarea class="w-100 message" required placeholder="Сообщение"></textarea>
+              <input class="w-100" type="submit" value="Отправить">
+          </form>
       </div>        
     </div>
     <!-- /.row -->

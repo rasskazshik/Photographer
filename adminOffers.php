@@ -1,3 +1,10 @@
+<?php 
+    session_start();
+    if($_SESSION["isAuth"]!=true)
+    {
+        header("Location: admin.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -12,17 +19,14 @@
   <link href="css/main.css" rel="stylesheet">
   
   <script defer src="vendor/jquery/jquery.min.js"></script>
-  <script defer src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>  
-  <script defer src="scriptsJS/offer.js" type="text/javascript"></script>
+  <script defer src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
     <body>
 <?php 
 //контент навигации
-require_once 'contentTemplates/navigation.html';
-//контент хэдера
-require_once 'contentTemplates/header.html';
+require_once 'contentTemplates/navigationAdmin.html';
 //контент страницы
-require_once 'contentTemplates/homeContent.php';
+require_once 'contentTemplates/adminOffers.php';
 //контент футера
 require_once 'contentTemplates/footer.html';
 ?>
